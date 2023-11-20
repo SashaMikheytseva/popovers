@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    position: absolute;
+    margin: 300px auto 0 auto;
+    padding: 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    color: #ffffff;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+
+.pop {
+    width: 300px;
+    position: absolute ;
+    box-sizing: border-box;
+    
+}
+
+.pop-title {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #242323;
+    border: 1px solid gray;
+    background-color: #e0e0e0; 
+    border-radius: 6px 6px 0 0;
+}
+
+.pop-text {
+    margin: 0;
+    padding: 10px;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 0 0 6px 6px;
+}
+
+.pop::before, .pop::after {
+    content: ''; 
+    position: absolute;
+    transform: translateX(-50%);
+    left: 149px;
+    bottom: -19px;
+    border: 10px solid transparent;
+    border-top: 10px solid grey;
+}
+
+.pop::after {
+    border-top: 10px solid white;
+    bottom: -18px; 
+}
+
+/*# sourceMappingURL=main.css.map*/
