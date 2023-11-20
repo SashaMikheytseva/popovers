@@ -1,7 +1,7 @@
 export default class Popover {
-  constructor() {
-    this.container = document.querySelector('.container');
-    this.button = this.container.querySelector('.btn');
+  constructor(btn) {
+    // this.container = document.querySelector('.container');
+    this.button = btn;// document.querySelector('.btn');
     this.onClick = this.onClick.bind(this);
   }
 

@@ -1,4 +1,5 @@
 import Popover from './popovers';
 
-const tooltip = new Popover();
+const button = document.querySelector('.btn');
+const tooltip = new Popover(button);
 tooltip.init();
